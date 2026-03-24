@@ -1,13 +1,13 @@
 server:
-  port: 8087
+  port: 8085
 
 spring:
   application:
     name: ms-envios
   datasource:
-    url: ACA_VA_TU_URL_DE_SUPABASE
-    username: postgres
-    password: ACA_VA_TU_PASSWORD
+    url: jdbc:postgresql://aws-1-sa-east-1.pooler.supabase.com:6543/postgres?sslmode=require
+    username: postgres.gkcyyzzaizzuglmyetpe
+    password: GkCMQaTgcoo4ETva
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
